@@ -3,6 +3,4 @@ project(Allocator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Allocator main.cpp)
-
-add_subdirectory(lib)
+add_executable(Allocator main.cpp MemoryPoolAllocator.h)
